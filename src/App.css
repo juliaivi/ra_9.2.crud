@@ -1,0 +1,204 @@
+body {
+  width: 800px;
+  margin: auto;
+  background-color: rgb(194, 194, 194);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+hr {
+  padding: 0;
+	height: 0;
+	border: none;
+	box-shadow: 0 0 1px 1px rgb(207, 206, 206);
+}
+
+.App {
+  width: 700px;
+  margin: auto;
+}
+
+.nav {
+  margin: 20px ;
+  padding: 15px;
+  background-color: rgb(252, 251, 251);
+  text-align: right;
+}
+
+.btn-add {  
+  padding: 5px 10px;
+  background-color: rgb(1, 85, 110);
+  color: white;
+}
+
+.posts-list {
+  margin: 10px ;
+}
+
+.post-content {
+  padding: 15px;
+  background-color: rgb(252, 251, 251);
+}
+
+.post__header {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.post__avatar {
+  position: relative; 
+  top: 21px;
+  width: 40px;
+  height: 40px;
+  margin: auto 0;
+  border: 1px solid;
+  border-radius: 30px;
+}
+
+.name {
+ color: rgb(1, 85, 110);
+ font-weight: 700;
+}
+
+.post__navigetion__box {
+  display: flex;
+  justify-content: space-evenly;
+  color: gray;
+  font-weight: 700;
+}
+.post_like:hover, .post_comments:hover {
+  color: rgb(63, 63, 63);
+  font-weight: 700;
+}
+
+.post__text {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.post__edit__box {
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+}
+
+.post__info {
+  margin-left: 20px;
+}
+
+.post_like {
+  margin-right: 20px;
+}
+
+.post__edit {  
+  margin-right: 20px;
+  padding: 5px 10px;
+  background-color: rgb(1, 85, 110);
+  color: white;
+}
+
+.post__edit:hover, .btn__edit__post:hover, .btn__add__post:hover, .btn-add:hover {
+  background-color: rgb(1, 110, 55);
+}
+
+.post__delete {
+  padding: 5px 10px;
+  background-color: rgb(1, 85, 110);
+  color: white;
+}
+
+.post__delete:hover {
+  background-color: rgb(179, 53, 3);
+}
+
+.post__close {
+  position: absolute;
+  top: 12px;
+  right: 13px;
+  font-weight: 700;
+  color: gray;
+}
+
+.post__close:hover {
+  color: rgb(63, 63, 63);
+}
+
+.post__info {
+  position: relative;
+  top: 20px;
+}
+
+.post__avatar__input {
+  width: 35px;
+  height: 35px;
+  margin: auto 0;
+  border: 1px solid;
+  border-radius: 30px;
+}
+
+.add__comment__box {
+  display: flex;
+  margin-top: 20px;
+}
+
+.post__avatar__input {
+  margin-right: 20px;
+}
+
+.post__input {
+  width: 90%;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid gray;
+}
+  
+.date {
+  margin: 0;
+  font-weight: 600;
+  color: gray;
+}
+
+.post__form {
+  position: relative;
+  padding: 20px;
+  padding-bottom: 60px;  
+  background-color: white;
+}
+
+.input__title {
+ width: 100%;
+}
+
+.btn__add__post {
+position: absolute;
+right: 14px;
+bottom: 34px;
+}
+
+.edit__box {
+  position: relative;
+  margin-top: 20px; 
+  padding: 20px;
+  background-color: white;
+}
+
+.input__title {
+  padding: 6px;
+  margin: 10px 0; 
+  box-sizing: border-box;
+}
+
+.btn__edit__post, .btn__add__post {
+  padding: 5px 10px;
+  float: right; 
+  background-color: rgb(1, 85, 110);
+  color: white;
+}
+
+.form__edit {
+  margin-bottom: 18px;
+}
+
